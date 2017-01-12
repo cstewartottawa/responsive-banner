@@ -28,6 +28,20 @@ html {
   border-color: #fff;
 }
 
+@media only screen and (min-width: 25em) {
+
+  body {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
 @media only screen and (min-wdith: 60em) {
 
   .banner-content {
@@ -39,3 +53,15 @@ html {
     float: left;
     background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
   }
+
+  .banner{
+    position: relative;
+  }
+
+  @media only screen and (min-width: 90em) {
+
+    html {
+      font-size: 130%;
+      line-height: 1.5;
+      margin: auto;
+    }
