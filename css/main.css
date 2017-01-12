@@ -39,3 +39,9 @@ html {
   display: block;
   float: left;
 }
+
+.btn {
+  padding: 0.5em 0.75em;
+  color: #ff8;
+  border-color: #fff;
+}
